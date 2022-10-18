@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: #0D0D0D;
+}
+
+/*  Navbar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+
+}
+.nav-logo{
+    color: white;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list a {
+    font-size: 10px;
+    font-weight: 600;
+    padding-right: 70px;
+    color: white;
+}
+.nav-list a:hover{
+    color: #1746A2;
+}
+
+/*  End Navbar */
+/*  Home */
+.home{
+   padding-top: 100px;
+   display: flex;
+   padding-left: 120px;
+}
+.home-text h3{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.home-text h1 {
+    font-size: 48px;
+    width: 578px;
+    padding-bottom: 30px;
+}
+.home-text p{
+    width: 506px;
+    font-size: 15px;
+    height: 146px;
+}
+.home-text h2{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.home-img img{
+    width: 470px;
+    height: 500px;
+    padding-right: -100px;
+}
+.home-btn{
+    margin-bottom: 25px;
+    border-radius: 15px;
+    width: 130px;
+    height: 40px;
+    background: #1746A2;
+    color: white;
+}
+.home-icon img{
+    padding-right: 20px;
+}
+/*  End Home */
